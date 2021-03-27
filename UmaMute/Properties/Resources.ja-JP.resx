@@ -117,29 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AppIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AppIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MenuItem.EnableThisApp.Title" xml:space="preserve">
-    <value>Adjust umamusume's volume automatically</value>
+    <value>umamusumeの音量を自動的に変更する</value>
   </data>
   <data name="MenuItem.Terminate.Title" xml:space="preserve">
-    <value>Terminate UmaMute</value>
+    <value>UmaMuteを終了する</value>
   </data>
   <data name="MenuItem.Volume.CurrentValue" xml:space="preserve">
-    <value>Current value</value>
+    <value>現在の設定値</value>
   </data>
   <data name="MenuItem.Volume.CurrentVolume.Description" xml:space="preserve">
-    <value>Set current volume for umamusume on Volume mixer as this volume</value>
+    <value>音量ミキサー上のumamusumeの現在の音量をこの設定項目の音量としてセットします</value>
   </data>
   <data name="MenuItem.Volume.CurrentVolume.Title" xml:space="preserve">
-    <value>Use current volume</value>
+    <value>現在のumamusumeの音量をセットする</value>
   </data>
   <data name="MenuItem.VolumeForBackground.Title" xml:space="preserve">
-    <value>Volume for umamusume when background</value>
+    <value>umamusumeのウィンドウがアクティブではない時の音量</value>
   </data>
   <data name="MenuItem.VolumeForForeground.Title" xml:space="preserve">
-    <value>Volume for umamusume when foreground</value>
+    <value>umamusumeのウィンドウがアクティブな時の音量</value>
   </data>
 </root>

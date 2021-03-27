@@ -69,5 +69,68 @@ namespace UmaMute.Properties {
                 return ((System.Drawing.Icon)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Adjust umamusume&apos;s volume automatically.
+        /// </summary>
+        internal static string MenuItem_EnableThisApp_Title {
+            get {
+                return ResourceManager.GetString("MenuItem.EnableThisApp.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Terminate UmaMute.
+        /// </summary>
+        internal static string MenuItem_Terminate_Title {
+            get {
+                return ResourceManager.GetString("MenuItem.Terminate.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Current value.
+        /// </summary>
+        internal static string MenuItem_Volume_CurrentValue {
+            get {
+                return ResourceManager.GetString("MenuItem.Volume.CurrentValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Set current volume for umamusume on Volume mixer as this volume.
+        /// </summary>
+        internal static string MenuItem_Volume_CurrentVolume_Description {
+            get {
+                return ResourceManager.GetString("MenuItem.Volume.CurrentVolume.Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use current volume.
+        /// </summary>
+        internal static string MenuItem_Volume_CurrentVolume_Title {
+            get {
+                return ResourceManager.GetString("MenuItem.Volume.CurrentVolume.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume for umamusume when background.
+        /// </summary>
+        internal static string MenuItem_VolumeForBackground_Title {
+            get {
+                return ResourceManager.GetString("MenuItem.VolumeForBackground.Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Volume for umamusume when foreground.
+        /// </summary>
+        internal static string MenuItem_VolumeForForeground_Title {
+            get {
+                return ResourceManager.GetString("MenuItem.VolumeForForeground.Title", resourceCulture);
+            }
+        }
     }
 }
