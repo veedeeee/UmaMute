@@ -124,6 +124,9 @@
   <data name="MenuItem.MainConfig.EnableThisApp" xml:space="preserve">
     <value>Adjust umamusume's volume automatically</value>
   </data>
+  <data name="MenuItem.MainConfig.LaunchUmamusumeWhenUmaMuteHasLaunched" xml:space="preserve">
+    <value>Launch umamusume automatically when UmaMute has launched</value>
+  </data>
   <data name="MenuItem.Terminate" xml:space="preserve">
     <value>Terminate UmaMute</value>
   </data>

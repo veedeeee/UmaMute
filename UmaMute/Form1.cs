@@ -2,6 +2,7 @@ using System;
 using System.Reflection;
 using System.Windows.Forms;
 using System.Runtime.InteropServices;
+using System.Diagnostics;
 
 using UmaMute.View;
 using UmaMute.Model;
@@ -34,6 +35,11 @@ namespace UmaMute {
 
       dele = new WinEventDelegate(WinEventProc);
       IntPtr m_hhook = SetWinEventHook(EVENT_SYSTEM_FOREGROUND, EVENT_SYSTEM_FOREGROUND, IntPtr.Zero, dele, 0, 0, WINEVENT_OUTOFCONTEXT);
+
+      // Launch umamusume when UmaMute has launched
+      if(Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched) {
+        Process.Start(new ProcessStartInfo("dmmgameplayer://umamusume/cl/general/umamusume"));
+      }
     }
 
     /// <summary>

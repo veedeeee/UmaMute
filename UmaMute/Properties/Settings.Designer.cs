@@ -58,5 +58,17 @@ namespace UmaMute.Properties {
                 this["VolumeInBackground"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool IsLaunchUmamusumeWhenUmaMuteHasLaunched {
+            get {
+                return ((bool)(this["IsLaunchUmamusumeWhenUmaMuteHasLaunched"]));
+            }
+            set {
+                this["IsLaunchUmamusumeWhenUmaMuteHasLaunched"] = value;
+            }
+        }
     }
 }

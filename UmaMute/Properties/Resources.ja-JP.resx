@@ -120,6 +120,9 @@
   <data name="MenuItem.MainConfig.EnableThisApp" xml:space="preserve">
     <value>umamusumeの音量を自動的に変更する</value>
   </data>
+  <data name="MenuItem.MainConfig.LaunchUmamusumeWhenUmaMuteHasLaunched" xml:space="preserve">
+    <value>UmaMuteが起動したときにumamusumeを自動的に起動する</value>
+  </data>
   <data name="MenuItem.Terminate" xml:space="preserve">
     <value>UmaMuteを終了する</value>
   </data>

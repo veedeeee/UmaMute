@@ -80,6 +80,15 @@ namespace UmaMute.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Launch umamusume automatically when UmaMute has launched.
+        /// </summary>
+        internal static string MenuItem_MainConfig_LaunchUmamusumeWhenUmaMuteHasLaunched {
+            get {
+                return ResourceManager.GetString("MenuItem.MainConfig.LaunchUmamusumeWhenUmaMuteHasLaunched", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terminate UmaMute.
         /// </summary>
         internal static string MenuItem_Terminate {
