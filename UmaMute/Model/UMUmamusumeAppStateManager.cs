@@ -4,9 +4,9 @@ using System.Text;
 using System.Runtime.InteropServices;
 
 namespace UmaMute.Model {
-  class UNUmamusumeAppStateManager {
-    private static UNUmamusumeAppStateManager _singletonInstance = new UNUmamusumeAppStateManager();
-    public static UNUmamusumeAppStateManager SharedManager() {
+  class UMUmamusumeAppStateManager {
+    private static UMUmamusumeAppStateManager _singletonInstance = new UMUmamusumeAppStateManager();
+    public static UMUmamusumeAppStateManager SharedManager() {
       return _singletonInstance;
     }
 
@@ -28,7 +28,7 @@ namespace UmaMute.Model {
     [DllImport("user32.dll")]
     static extern int GetWindowText(IntPtr hWnd, StringBuilder text, int count);
 
-    private UNUmamusumeAppStateManager() {
+    private UMUmamusumeAppStateManager() {
       NAudio.CoreAudioApi.MMDeviceEnumerator deviceEnumerator = new NAudio.CoreAudioApi.MMDeviceEnumerator();
       this.device = deviceEnumerator.GetDefaultAudioEndpoint(NAudio.CoreAudioApi.DataFlow.Render, NAudio.CoreAudioApi.Role.Multimedia);
     }

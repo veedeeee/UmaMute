@@ -47,7 +47,7 @@ namespace UmaMute {
     public void WinEventProc( IntPtr hWinEventHook, uint eventType, IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime ) {
       if(!Properties.Settings.Default.IsAutoMuteEnabled) { return; }
 
-      UNUmamusumeAppStateManager appStateManager = UNUmamusumeAppStateManager.SharedManager();
+      UMUmamusumeAppStateManager appStateManager = UMUmamusumeAppStateManager.SharedManager();
 
       // umamusume.exe doesn't exist in launcing apps
       if(!appStateManager.IsUmamusumeLaunchingNow) { return; }

@@ -73,18 +73,18 @@ namespace UmaMute.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Adjust umamusume&apos;s volume automatically.
         /// </summary>
-        internal static string MenuItem_EnableThisApp_Title {
+        internal static string MenuItem_MainConfig_EnableThisApp {
             get {
-                return ResourceManager.GetString("MenuItem.EnableThisApp.Title", resourceCulture);
+                return ResourceManager.GetString("MenuItem.MainConfig.EnableThisApp", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Terminate UmaMute.
         /// </summary>
-        internal static string MenuItem_Terminate_Title {
+        internal static string MenuItem_Terminate {
             get {
-                return ResourceManager.GetString("MenuItem.Terminate.Title", resourceCulture);
+                return ResourceManager.GetString("MenuItem.Terminate", resourceCulture);
             }
         }
         
@@ -118,18 +118,18 @@ namespace UmaMute.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Volume for umamusume when background.
         /// </summary>
-        internal static string MenuItem_VolumeForBackground_Title {
+        internal static string MenuItem_VolumeForBackground {
             get {
-                return ResourceManager.GetString("MenuItem.VolumeForBackground.Title", resourceCulture);
+                return ResourceManager.GetString("MenuItem.VolumeForBackground", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Volume for umamusume when foreground.
         /// </summary>
-        internal static string MenuItem_VolumeForForeground_Title {
+        internal static string MenuItem_VolumeForForeground {
             get {
-                return ResourceManager.GetString("MenuItem.VolumeForForeground.Title", resourceCulture);
+                return ResourceManager.GetString("MenuItem.VolumeForForeground", resourceCulture);
             }
         }
     }

@@ -121,10 +121,10 @@
   <data name="AppIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AppIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MenuItem.EnableThisApp.Title" xml:space="preserve">
+  <data name="MenuItem.MainConfig.EnableThisApp" xml:space="preserve">
     <value>Adjust umamusume's volume automatically</value>
   </data>
-  <data name="MenuItem.Terminate.Title" xml:space="preserve">
+  <data name="MenuItem.Terminate" xml:space="preserve">
     <value>Terminate UmaMute</value>
   </data>
   <data name="MenuItem.Volume.CurrentValue" xml:space="preserve">
@@ -136,10 +136,10 @@
   <data name="MenuItem.Volume.CurrentVolume.Title" xml:space="preserve">
     <value>Use current volume</value>
   </data>
-  <data name="MenuItem.VolumeForBackground.Title" xml:space="preserve">
+  <data name="MenuItem.VolumeForBackground" xml:space="preserve">
     <value>Volume for umamusume when background</value>
   </data>
-  <data name="MenuItem.VolumeForForeground.Title" xml:space="preserve">
+  <data name="MenuItem.VolumeForForeground" xml:space="preserve">
     <value>Volume for umamusume when foreground</value>
   </data>
 </root>

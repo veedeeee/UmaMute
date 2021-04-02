@@ -6,7 +6,7 @@ namespace UmaMute {
     Background
   }
 
-  class VolumeSettingsEventArgs: EventArgs {
+  class UMVolumeSettingsEventArgs: EventArgs {
     public SettingOwner SettingOwner;
 
     /// <summary>

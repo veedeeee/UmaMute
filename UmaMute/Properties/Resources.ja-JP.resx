@@ -117,10 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="MenuItem.EnableThisApp.Title" xml:space="preserve">
+  <data name="MenuItem.MainConfig.EnableThisApp" xml:space="preserve">
     <value>umamusumeの音量を自動的に変更する</value>
   </data>
-  <data name="MenuItem.Terminate.Title" xml:space="preserve">
+  <data name="MenuItem.Terminate" xml:space="preserve">
     <value>UmaMuteを終了する</value>
   </data>
   <data name="MenuItem.Volume.CurrentValue" xml:space="preserve">
@@ -132,10 +132,10 @@
   <data name="MenuItem.Volume.CurrentVolume.Title" xml:space="preserve">
     <value>現在のumamusumeの音量をセットする</value>
   </data>
-  <data name="MenuItem.VolumeForBackground.Title" xml:space="preserve">
+  <data name="MenuItem.VolumeForBackground" xml:space="preserve">
     <value>umamusumeのウィンドウがアクティブではない時の音量</value>
   </data>
-  <data name="MenuItem.VolumeForForeground.Title" xml:space="preserve">
+  <data name="MenuItem.VolumeForForeground" xml:space="preserve">
     <value>umamusumeのウィンドウがアクティブな時の音量</value>
   </data>
 </root>
