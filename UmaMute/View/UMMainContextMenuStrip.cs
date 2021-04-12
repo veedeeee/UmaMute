@@ -30,7 +30,7 @@ namespace UmaMute.View {
         Text = Properties.Resources.MenuItem_MainConfig_LaunchUmamusumeWhenUmaMuteHasLaunched,
         Checked = Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched
       };
-      isLaunchUmamusumeItem.Click += this.EnabledAutoMuteItemClicked;
+      isLaunchUmamusumeItem.Click += this.LaunchUmamusumeItemClicked;
       this.Items.Add(isLaunchUmamusumeItem);
 
       this.Items.Add(new ToolStripSeparator());
