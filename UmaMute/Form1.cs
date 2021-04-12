@@ -40,6 +40,9 @@ namespace UmaMute {
       if(Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched) {
         Process.Start(new ProcessStartInfo("dmmgameplayer://umamusume/cl/general/umamusume"));
       }
+
+      // Update Registory for Auto-launch UmaMute
+      UMRegistoryManager.SharedManager().RefreshRegistoryValueForAutoLaunch();
     }
 
     /// <summary>

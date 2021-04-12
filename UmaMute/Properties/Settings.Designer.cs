@@ -70,5 +70,17 @@ namespace UmaMute.Properties {
                 this["IsLaunchUmamusumeWhenUmaMuteHasLaunched"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool IsLaunchUmaMuteWhenWindowsHasBooted {
+            get {
+                return ((bool)(this["IsLaunchUmaMuteWhenWindowsHasBooted"]));
+            }
+            set {
+                this["IsLaunchUmaMuteWhenWindowsHasBooted"] = value;
+            }
+        }
     }
 }

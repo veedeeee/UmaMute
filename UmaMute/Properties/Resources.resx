@@ -127,6 +127,9 @@
   <data name="MenuItem.MainConfig.LaunchUmamusumeWhenUmaMuteHasLaunched" xml:space="preserve">
     <value>Launch umamusume automatically when UmaMute has launched</value>
   </data>
+  <data name="MenuItem.MainConfig.LaunchUmaMuteWhenWindowsHasBooted" xml:space="preserve">
+    <value>Launch UmaMute when Windows has booted</value>
+  </data>
   <data name="MenuItem.Terminate" xml:space="preserve">
     <value>Terminate UmaMute</value>
   </data>

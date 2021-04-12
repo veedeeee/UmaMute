@@ -33,6 +33,13 @@ namespace UmaMute.View {
       isLaunchUmamusumeItem.Click += this.LaunchUmamusumeItemClicked;
       this.Items.Add(isLaunchUmamusumeItem);
 
+      ToolStripMenuItem isLaunchUmaMuteItem = new ToolStripMenuItem {
+        Text = Properties.Resources.MenuItem_MainConfig_LaunchUmaMuteWhenWindowsHasBooted,
+        Checked = Properties.Settings.Default.IsLaunchUmaMuteWhenWindowsHasBooted
+      };
+      isLaunchUmaMuteItem.Click += this.LaunchUmaMuteItemClicked;
+      this.Items.Add(isLaunchUmaMuteItem);
+
       this.Items.Add(new ToolStripSeparator());
 
       // Volume Settings
@@ -116,6 +123,11 @@ namespace UmaMute.View {
     private void LaunchUmamusumeItemClicked(object sender, EventArgs e) {
       Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched = !Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched;
       ((ToolStripMenuItem)sender).Checked = Properties.Settings.Default.IsLaunchUmamusumeWhenUmaMuteHasLaunched;
+    }
+
+    private void LaunchUmaMuteItemClicked(object sender, EventArgs e) {
+      UMRegistoryManager.SharedManager().isEnableAutoLaunch = !Properties.Settings.Default.IsLaunchUmaMuteWhenWindowsHasBooted;
+      ((ToolStripMenuItem)sender).Checked = Properties.Settings.Default.IsLaunchUmaMuteWhenWindowsHasBooted;
     }
 
     private void VolumeClicked(object sender, UMVolumeSettingsEventArgs e) {

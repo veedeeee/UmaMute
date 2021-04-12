@@ -95,11 +95,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\UNUmamusumeAppStateManager.cs" />
+    <Compile Include="Model\UMRegistoryManager.cs" />
+    <Compile Include="Model\UMUmamusumeAppStateManager.cs" />
     <Compile Include="View\UMMainContextMenuStrip.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Model\VolumeSettingsEventArgs.cs" />
+    <Compile Include="Model\UMVolumeSettingsEventArgs.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

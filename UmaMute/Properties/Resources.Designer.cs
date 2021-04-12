@@ -89,6 +89,15 @@ namespace UmaMute.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Launch UmaMute when Windows has booted.
+        /// </summary>
+        internal static string MenuItem_MainConfig_LaunchUmaMuteWhenWindowsHasBooted {
+            get {
+                return ResourceManager.GetString("MenuItem.MainConfig.LaunchUmaMuteWhenWindowsHasBooted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Terminate UmaMute.
         /// </summary>
         internal static string MenuItem_Terminate {
